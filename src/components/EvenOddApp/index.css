@@ -1,0 +1,56 @@
+.app-container{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+.evenOdd-container{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(top, #ff6e7f, #bfe9ff);
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  max-width: 1110px;
+}
+.header{
+    text-align: center;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700;
+}
+.description{
+    color: #334155; 
+    text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.increment-btn{
+    color:  #1e293b;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  outline: none;
+  cursor: pointer;
+}
+.terms{
+ color: #334155; 
+    text-align: center;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-style: normal;
+  font-weight:100;
+  text-transform: capitalize;    
+}
